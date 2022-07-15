@@ -1,0 +1,86 @@
+
+
+  body{
+    background-color: rgb(255, 190, 0);
+    margin:0px;
+    position: relative;
+    bottom:0px;    
+  }
+  .menu-div{
+    background-color: black;
+    color:aliceblue;
+    display: block;    
+  }
+  #cim{
+    text-align: center;
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  .menu-tools{   
+   padding:10px;
+   display: block;
+   background-color: black;   
+   }
+   
+   .menu-tools .menu-list li{
+     list-style-type: none;
+     display: inline;
+     color: white;
+     padding:20px;
+     font-size: 36px;
+     
+   }
+   .menu-tools .menu-list li:hover{
+    background-color: orange;
+    color: black;
+   }
+   .main-div{
+    background-color: rgb(219, 126, 20);  
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    border: solid black 5px;
+   
+    
+    
+  }
+  .img-group{
+    background-color: rgb(255,250,100);
+    border:solid black 3px;
+    border-radius: 15px;
+    margin-left:300px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding:10px;
+    box-shadow: 4px 4px;
+    width:50%;
+    height:20%;
+    
+    
+  }
+  img{
+    display: block;
+    width: 50%;
+    border: solid black 1px;
+    margin-left: auto;
+    border-radius: 0px 10px 10px 0px;    
+  }
+  .product-details{    
+    display: inline-block;
+    position: absolute;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .images{
+    width: 40%;
+    height: 40%;
+    position: relative;
+  }
+
+  @media screen and (max-width:450px){
+    #cim{font-size: 26px;}
+    .menu-tools{padding:5px;}
+    .menu-tools .menu-list li{font-size: 16px;padding:10px;}
+    .img-group{margin-left: 2px;margin-right:10px; width:90%;height:70%;padding:2px;}
+    .product-details{font-size: 6px;}
+  }
